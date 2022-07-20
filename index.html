@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <header>
+      <h1><span>M</span>y Profile</h1>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">Tentang Saya</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Service</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li>
+      </ul>
+    </header>
+    <section class="banner">
+      <div class="textBx">
+        <h2>Halo, Saya<br /><span>Dedy Arya Kusuma.</span></h2>
+        <h3>Saya seorang Mahasiswa dan seorang Front End Developer</h3>
+        <a href="#about" class="btn">Tentang Saya</a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="heading">
+        <h2><span>T</span>entang Saya</h2>
+      </div>
+      <div class="content">
+        <div class="w50" align="center">
+          <img src="img/Profile Photo.jpg" width="300px" class="img" />
+        </div>
+        <br>
+        <div class="contentBx">
+          <div class="abt">
+            <p>Nama saya Dedy Arya Kusuma, umur saya 19 tahun dan saya lahir di Bojonegoro pada tanggal 24 December 2002.</p>
+          </div>
+          <div class="education">
+            <h3 class="title">Pendidikan</h3>
+            <ul>
+              <li>
+                <h4>2010 - 2016</h4>
+                <h5>MI AL - Hidayah Ringintunggal</h5>
+              </li>
+              <li>
+                <h4>2016 - 2019</h4>
+                <h5>SMP Negeri 1 Gayam</h5>
+              </li>
+              <li>
+                <h4>2019 - 2022</h4>
+                <h5>SMK Negeri Purwosari</h5>
+              </li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Skill Saya</h3>
+            <ul style="list-style-type: none">
+              <li>
+                <div class="text">HTML</div>
+                <div class="percent">
+                  <div class="barprcnt" style="width: 90%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="text">CSS</div>
+                <div class="percent">
+                  <div class="barprcnt" style="width: 70%"></div>
+                </div>
+              </li>
+              <li>
+                <div class="text">JavaScript</div>
+                <div class="percent">
+                  <div class="barprcnt" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="heading">
+        <h2><span>S</span>ervice Kami</h2>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <img src="img/icon1.png" width="142px" />
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon2.png" width="142px" />
+          <h2>Web Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon3.png" width="142px" />
+          <h2>Android App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon4.png" width="142px" />
+          <h2>Photography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon5.png" width="142px" />
+          <h2>Web Writing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/icon6.png" width="142px" />
+          <h2>Video Editing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem provident corrupti incidunt, expedita iusto similique assumenda.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2><span>K</span>ontak Saya</h2>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Info Kontak</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon"><img src="img/location.png" width="25px"></div>
+                <div class="text">
+                  <h3>Alamat</h3><p>Desa Ringintunggal RT01/RW01, Kec.Gayam, Kab.Bojonegoro</p>
+                </div>
+            </div>
+            <div class="box">
+              <div class="icon"><img src="img/phone.png" width="25px"></div>
+                <div class="text">
+                  <h3>No.HP</h3><p>085156538033</p>
+                </div>
+            </div>
+            <div class="box">
+              <div class="icon"><img src="img/gmail.png" width="25px"></div>
+                <div class="text">
+                  <h3>Email</h3><p>dedyarya@gmail.com</p>
+                </div>
+            </div>
+          </div>
+        <div class="sosmed">
+        <h3>Sosial Media Saya</h3>
+        <div class="wrapper">
+          <div class="button">
+            <div class="icon1"><a href="https://www.instagram.com/arya__045/"><img src="img/ig.png" width="25px" /></a></div>
+            <span>Instagram</span>
+          </div>
+          <div class="button">
+            <div class="icon2"><a href="https://www.facebook.com/aryakusuma045/"><img src="img/fb.png" width="25px" /></a></div>
+            <span>Facebook</span>
+          </div>
+          <div class="button">
+            <div class="icon3"><a href="https://wa.me/qr/SI5KBQMSCSBGN1"><img src="img/wa.png" width="25px" /></a></div>
+            <span>WhatsApp</span>
+          </div>
+        </div>
+      </div>
+        </div>
+        <br>
+        <div class="formBx">
+        <form>
+          <h3>Kirim Pesan Untuk Saya</h3>
+          <input type="text" name="" placeholder="Nama Lengkap" required>
+          <input type="email" name="" placeholder="Email" required>
+          <textarea placeholder="Ketik Pesan Anda"></textarea>
+          <input class="sbmt" type="submit" value="Kirim">
+        </form>
+      </div>
+      </div>
+      
+    </section>
+    <footer>
+      <div class="ft">
+        <h3>Copyright &copy; <a href="https://www.youtube.com/c/OnlineTutorials4Designers">Online Tutorials</a> All Rights Reserved.<h2>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+      function toggleMenu(){
+        var menuToggle = document.querySelector(".toggle");
+        var menu = document.querySelector(".menu");
+        menuToggle.classList.toggle("active")
+        menu.classList.toggle("active1")
+      }
+    </script>
+  </body>
+</html>
