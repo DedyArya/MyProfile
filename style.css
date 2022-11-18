@@ -599,7 +599,7 @@ header ul li a:hover {
     font-size: 10px;
   }
   .skill .percent {
-    max-width: 75%;
+    max-width: 100%;
     max-height: 25px;
   }
 
@@ -720,7 +720,6 @@ header ul li a:hover {
   .wrapper .button {
     height: 45px;
     width: 45px;
-    float: left;
     display: inline-block;
     margin: 0 3px;
     overflow: hidden;
