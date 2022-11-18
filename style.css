@@ -363,7 +363,7 @@ header ul li a:hover {
   font-weight: bold;
 }
 .sosmed ul li:hover {
-  width: 180px;
+  width: 150px;
   box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
 .sosmed ul li:before {
