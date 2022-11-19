@@ -622,7 +622,7 @@ header ul li a:hover {
   }
   .project .content .projectBx {
     padding: 40px 20px;
-    max-width: 270px;
+    max-width: 200px;
     margin: 20px;
     text-align: center;
     transition: 0.25s;
@@ -634,9 +634,6 @@ header ul li a:hover {
   .project .content .projectBx h2 {
     font-size: 16px;
     font-weight: 500;
-  }
-  .project .content .projectBx p {
-    font-size: 12px;
   }
 
   /* contact */
