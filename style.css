@@ -194,49 +194,52 @@ header ul li a:hover {
   background: #2196f3;
 }
 
-/* Services */
-.services {
+/* project */
+.project {
   background: #2196f3;
 }
-.services .heading h2 {
+.project .heading h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 32px;
   color: #111;
 }
-.services .heading span {
+.project .heading span {
   color: #fff;
   font-size: 42px;
 }
-.services .content {
+.project .content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.services .content .servicesBx {
+.project .content .projectBx {
   padding: 40px 20px;
-  background: #444;
-  color: #fff;
-  max-width: 340px;
+  background: #fff;
+  color: #111;
+  max-width: 300px;
   margin: 20px;
   text-align: center;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   transition: 0.25s;
   border-radius: 25px;
 }
-.services .content .servicesBx:hover {
-  background: #111;
+.project .content .projectBx:hover {
+  background: rgb(150, 150, 150);
+  color: #fff;
   box-shadow: invert 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
-.services .content .servicesBx img {
-  max-width: 80px;
-  filter: invert(1);
+.project .content .projectBx img {
+  max-width: 250px;
+  border-radius: 10px;
 }
-.services .content .servicesBx h2 {
+.project .content .projectBx a {
   font-size: 20px;
   font-weight: 600;
+  color: #111;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 /* Contact */
@@ -603,38 +606,36 @@ header ul li a:hover {
     max-height: 25px;
   }
 
-  /* services */
-  .services .content .servicesBx {
+  /* project */
+  .project .content .projcetBx {
     margin: 10px;
   }
-  .services .heading span {
+  .project .heading span {
     color: #fff;
     font-size: 28px;
   }
-  .services .heading h2 {
+  .project .heading h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
     color: #111;
   }
-  .services .content .servicesBx {
+  .project .content .projectBx {
     padding: 40px 20px;
-    color: #fff;
     max-width: 270px;
     margin: 20px;
     text-align: center;
     transition: 0.25s;
     border-radius: 25px;
   }
-  .services .content .servicesBx img {
-    max-width: 50px;
-    filter: invert(1);
+  .project .content .projectBx img {
+    max-width: 125px;
   }
-  .services .content .servicesBx h2 {
+  .project .content .projectBx h2 {
     font-size: 16px;
     font-weight: 500;
   }
-  .services .content .servicesBx p {
+  .project .content .projectBx p {
     font-size: 12px;
   }
 
