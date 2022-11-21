@@ -594,23 +594,23 @@ header ul li a:hover {
     box-shadow: 0 0 8px rgba(0, 0, 0);
   }
   .title {
-    font-size: 16px;
+    font-size: 17px;
   }
   .contentBx p {
     margin-bottom: 5px;
     font-size: 17px;
   }
   .education h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .education h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .skill h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .skill .text {
-    font-size: 10px;
+    font-size: 16px;
   }
   .skill .percent {
     max-width: 100%;
