@@ -149,7 +149,7 @@ header ul li a:hover {
 }
 .img {
   max-width: 100%;
-  border: 5px solid rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(0, 0, 0, 0.75);
   border-radius: 300px;
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0);
@@ -588,26 +588,26 @@ header ul li a:hover {
   }
   .img {
     max-width: 40%;
-    border: 5px solid rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.75);
     border-radius: 300px;
     align-items: center;
     box-shadow: 0 0 8px rgba(0, 0, 0);
   }
   .title {
-    font-size: 18px;
+    font-size: 17px;
   }
   .contentBx p {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 17px;
   }
   .education h5 {
     font-size: 16px;
   }
   .education h4 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .skill h3 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .skill .text {
     font-size: 16px;
