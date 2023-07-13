@@ -31,7 +31,7 @@ header {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 header span {
-  color: #2196f3;
+  color: red;
   font-size: 45px;
 }
 header h1 {
